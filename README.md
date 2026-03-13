@@ -4,11 +4,11 @@
 
 ### Components
 
-1. SparkFun Pro Micro 16MHz
-2. eletechsup LINTTL3
-3. Mini DC-DC Step-Up converter 12V/0.3A - 22 x 11 x 3 mm
-4. JRC-B008 USB-C 2.0 socket
-5. USB Micro B plug (at least 4 pin)
+1. **SparkFun Pro Micro 16MHz**
+2. **eletechsup LINTTL3**
+3. **Mini DC-DC Step-Up converter 12V/0.3A** - 22 x 11 x 3 mm
+4. **JRC-B008** USB-C 2.0 socket
+5. **USB Micro B plug** (at least 4 pin)
 
 ## Assembly
 
@@ -45,6 +45,7 @@ Does it work? Yes, kinda.
 ### Default key bindings
 
 ![Commander Knob Tybe B](/assets/images/CommanderKnobTypeB.webp)
+
 Image source: https://www.mazda.ca/en/digital-owners-manual/2023/navigation-manuals-6.5g/contents/32020200.html
 
 | Input | Name in code | Output [Keyboard] | Output [Consumer] |
@@ -76,6 +77,7 @@ Volume knob (input 4)
 ### Changing key bindings
 
 For media controls use `ConsumerKeycode` from [ConsumerAPI.h](https://github.com/NicoHood/HID/blob/master/src/HID-APIs/ConsumerAPI.h#L30C6-L30C22)
+
 For general keys use `KeyboardKeycode` from [ImprovedKeylayouts.h](https://github.com/NicoHood/HID/blob/master/src/KeyboardLayouts/ImprovedKeylayouts.h#L61C6-L61C22)
 
 ## 3D printed bottom cover
